@@ -1,0 +1,67 @@
+.login-page{
+    width:100vw ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    background: url('../../Assets/images/bg-login.jpeg');
+    background-size: cover;
+    form {
+        background: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 20px 35px 0px rgba(0, 0, 0, 0.07);
+        padding: 50px;
+        position: relative;
+        max-width: 400px;
+        h5 {
+            font-size: 2rem;
+            text-align: left;
+            color: #1c2437;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .user-icon {
+            position: absolute;
+            right: 0;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            border-radius: 50px;
+            top:-45px;
+            background-color: #fff;
+            img {
+                width: 35px;
+            }
+        }
+        .MuiFormLabel-root {
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+        .login-btn {
+            height: 60px;
+            width: 100%;
+            display: block;
+            background: #1888f5;
+            font-size: 18px;
+            font-weight: 600;
+            color: #fff;
+            font-family: "Roboto", sans-serif;
+            border-radius: 5px;
+            outline: none;
+        }
+        .MuiGrid-item {
+            padding-top: 25px;
+        }
+    }
+    .error{
+        color: #d32f2f;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-weight: 500;
+    }
+}
